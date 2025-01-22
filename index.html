@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Link Manager</title>
+      <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h1>Link Manager</h1>
+          <div class="add-link-form">
+            <input type="text" id="linkInput" placeholder="Enter URL">
+            <input type="text" id="tagInput" placeholder="Enter Tags (comma-separated)">
+            <button id="addButton">Add Link</button>
+          </div>
+          <div class="search-link-form">
+            <input type="text" id="searchInput" placeholder="Search Links">
+          </div>
+        </div>
+        <div class="links-container" id="linksContainer"></div>
+      </div>
+      <script src="js/storage.js"></script>
+      <script src="js/ui.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+    </html>
